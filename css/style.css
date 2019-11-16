@@ -310,3 +310,20 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
 .mail{
     margin: 15px 0;
 }
+
+/* Footer */
+
+.footer{
+    background: #1C3C50;
+    padding: 50px 0;
+}
+
+.street{
+    color: #FFF;
+    text-align: center;
+}
+
+
+.logo2{
+    margin-bottom: 35px;
+}
