@@ -129,3 +129,34 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
     font-size: 20px;
     font-family: "Droid Serif";
 }
+
+/* Portfolio */
+
+
+.portfolio{
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.portfolio_title{
+    color: #1C3C50;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 65px;
+
+}
+
+.portfolio_item a {
+    color: #1C3C50;
+    font-size: 30px;
+}
+
+.portfolio_item a:hover{
+    background: #00CD6B;
+    border-radius: 10px;
+    padding: 10px 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+
