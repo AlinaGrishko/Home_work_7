@@ -252,3 +252,61 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
     font-size: 20px;
     font-family: "Droid Serif";
 }
+
+/* Contact */
+
+.contact{
+    padding: 100px 0;
+    color: #1C3C50;
+}
+
+.contact_title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+
+.contact_text{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 85px;
+}
+
+.contacts_form [type="text"], .contacts_form [type="email"], .contacts_form textarea{
+    width: 100%;
+    border-style: none none solid;
+    border-width: 2px;
+    border-bottom-color: #00CD6B;
+    font-size: 26px;
+    font-family: "Droid Serif";
+    color: #2c3e50;
+}
+
+.form_btn{
+    background: #00CD6B;
+    color: #FFF;
+    border-radius: 10px;
+    font-size: 21px;
+    font-family: "Droid Serif";
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: none;
+}
+
+.contacts_info h4{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contacts_info p{
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.contacts_info a{
+    font-size: 20px;
+    color: #2c3e50;
+}
+.mail{
+    margin: 15px 0;
+}
