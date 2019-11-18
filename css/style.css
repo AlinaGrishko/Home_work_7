@@ -27,7 +27,7 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
 /* Section_video */
 .intro{
     max-height: 100vh;
-    overflow: hidden;
+    overflow: hidden;/*Это конечно помогает, но так видео обрезается*/
     position: relative;
     background: url("../img/background.jpg") center no-repeat ;
     background-size: cover;
@@ -62,10 +62,10 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
     text-align: center;
 }
 .container_2{
-    display: flex;
-    flex-direction: column;
+    display: flex;/*Для этого есть бутстрап классы*/
+    flex-direction: column;/*Для этого есть бутстрап классы*/
     max-width: 820px;
-    margin: 0 auto;
+    margin: 0 auto;/*Для этого есть бутстрап классы*/
     width: 100%;
 }
 
@@ -106,7 +106,7 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
     position: absolute;
     top: 50%;
     left: 100%;
-    padding-right: calc(50vw - 35px);
+    padding-right: calc(50vw - 35px);/*А почему не одинаковые отступы?*/
 }
 .btn:before {
     content: "";
@@ -138,7 +138,7 @@ a:link, a:visited              { font:20px Calibri, Tahoma, sans-serif; color:#f
     font-size: 24px;
     margin-bottom: 140px;
     text-align: left;
-    font-family: "Droid Serif";
+    font-family: "Droid Serif";/*Семейство*/
 }
 .icons_title {
     font-size: 26px;
